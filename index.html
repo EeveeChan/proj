@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <title>App de Identificação de Imagem em Tempo Real</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <img id="google_lens" src="download.jpeg" class="img-responsive">
+        <h2> X </h2>
+        <h1 id="mobilenet_logo" class="btn btn-info"> MobileNet </h1>
+
+        <br>
+        <br>
+        <ol>
+
+
+            <div class="image1">
+                <li class="col-sm-4 col-xs-12">
+                    <b> Imagem 1: </b>
+                    <img src="controle.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> GOOGLE LENS </b>:
+                    <span></span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> Modelo MobileNet </b>:
+                    <span></span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    <h4> Resultado: </h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+<br>
+            <hr>
+<br>
+            <div class="image1">
+                <li class="col-sm-4 col-xs-12">
+                    <b> Imagem 2: </b>
+                    <img src="bone.jpg" class="img-responsive" height="200px">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> GOOGLE LENS </b>:
+                    <span></span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> Modelo MobileNet </b>:
+                    <span></span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    <h4> Resultado: </h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="image1">
+                <li class="col-sm-4 col-xs-12">
+                    <b> Imagem 3: </b>
+                    <img src="bottle.jpeg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> GOOGLE LENS </b>:
+                    <span></span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> Modelo MobileNet </b>:
+                    <span></span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    <h4> Resultado: </h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="image1">
+                <li class="col-sm-4 col-xs-12">
+                    <b> Imagem 4: </b>
+                    <img src="controle remoto.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> GOOGLE LENS </b>:
+                    <span></span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> Modelo MobileNet </b>:
+                    <span></span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    <h4> Resultado: </h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="image1">
+                <li class="col-sm-4 col-xs-12">
+                    <b> Imagem 5: </b>
+                    <img src="chinelo nike.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> GOOGLE LENS </b>:
+                    <span></span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Resultado no <b> Modelo MobileNet </b>:
+                    <span></span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    <h4> Resultado: </h4>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
+
+            <div class="copyRightFooter">
+                <h4> Desnvolvido por: Matheus Hildebrand e BYJU'S Future School </h4>
+            </div>
+
+        </ol>
+    </center>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
